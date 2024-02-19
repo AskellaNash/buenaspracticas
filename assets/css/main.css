@@ -1,20 +1,31 @@
 /* Estilo personalizado */
 body {
     padding-top: 20px;
-    background-color: #B0EFEF;
+    background-color: #191b1c;
+}
+.container a {
+    color: white;
 }
 .jumbotron {
     flex-grow: 1;
+    background-color: #232628;
     padding: 10px;
     margin-top: 30px;
 }
+.jumbotro h1,
+.jumbotron p {
+    color: white ;
+}
+.jumbotron h1.display-4 {
+    color: white ;
+}
 .btn-primary{
-    background-color: #f496c2;
+    background-color: #0a0b0b;
     color: white;
-    border-color: #f496c2;
+    border-color: #0a0b0b;
 }
 .btn-primary:hover{
-    background-color: #f496c2;
-    color: black;
-    border-color: #f496c2;
+    background-color: #202020;
+    color: white;
+    border-color: #202020;
 }
