@@ -4,29 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BPD home</title>
+    <!-- Enlace al archivo CSS de Bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/css/main.css" rel="stylesheet">
 </head>
 <body>
-  <form action="#" method="get">
-    <input type="text" id="searchInput" name="searchInput" placeholder="Buscar...">
-    <button type="submit" id="searchButton">Ingresar</button>
-    <button type="button" id="resetButton" onclick="resetSearch()">Nuevo usuario</button>
-  </form>
-  
-<ul>
-  <li><a href="#Inicio">Inicio</a></li>
-  <li><a href="#Programas Académicos">Programas Académicos</a></li>
-  <li><a href="#Docentes">Docentes</a></li>
-  <li><a href="#Acerca de">Acerca de</a></li>
+<div class="container">
+  <ul class="nav">
+    <li class="nav-item"><a class="nav-link" href="#Inicio">Inicio</a></li>
+    <li class="nav-item"><a class="nav-link" href="#ProgramasAcademicos">Programas Académicos</a></li>
+    <li class="nav-item"><a class="nav-link" href="#Docentes">Docentes</a></li>
+    <li class="nav-item"><a class="nav-link" href="#AcercaDe">Acerca de</a></li>
 </ul>
+<form action="#" method="get">
+  <input type="text" id="searchInput" name="searchInput" class="form-control mb-2 mr-sm-2" placeholder="Buscar...">
+  <button type="submit" id="searchButton" class="btn btn-primary mb-2">Ingresar</button>
+  <button type="button" id="resetButton" onclick="resetSearch()" class="btn btn-secondary mb-2">Nuevo usuario</button>
+</form>
+  <div class="jumbotron">
+        <h1 class="display-4">Sistema de Matrículas</h1>
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        <hr class="my-4">
+        <p class="lead">
+          <button type="submit" id="exampleButton" class="btn btn-primary">Botón de ejemplo</button>
+          <button type="submit" id="anotherButton" class="btn btn-secondary">Otro botón</button>
+        </p>
+    </div>
+    
+    
 
-<h1>sistema de matriculas</h1>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-   sed do eiusmod tempor incididunt ut labore et dolore magna
-    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-     ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      Duis aute irure dolor in reprehenderit in voluptate velit
-       esse cillum dolore eu fugiat nulla pariatur.</p>
-<button type="submit" id="searchButton">Botón de ejemplo</button>
-<button type="submit" id="searchButton">Otro botón</button>
+
+</div>
+
+<!-- Scripts de Bootstrap -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
 </body>
 </html>

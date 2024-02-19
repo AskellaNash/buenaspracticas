@@ -1,0 +1,20 @@
+/* Estilo personalizado */
+body {
+    padding-top: 20px;
+    background-color: #B0EFEF;
+}
+.jumbotron {
+    flex-grow: 1;
+    padding: 10px;
+    margin-top: 30px;
+}
+.btn-primary{
+    background-color: #f496c2;
+    color: white;
+    border-color: #f496c2;
+}
+.btn-primary:hover{
+    background-color: #f496c2;
+    color: black;
+    border-color: #f496c2;
+}
